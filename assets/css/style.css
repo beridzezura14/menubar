@@ -1,0 +1,28 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+}
+.navbar-brand img{
+  height: 4rem;
+}
+
+.nav-item{
+  font-size: 14px;
+  width: 100px;
+}
+
+.language_options{
+       display: inline-block;
+        margin-top: -5px;    
+        padding: 1px 15px 1px 15px;
+        border-radius: 10px;
+        color: #798296;
+        font-size: 14px;
+}
+
+@media(max-width: 770px) {
+  .language_options{    
+    margin-top: 20px;
+     padding: 5px 15px 5px 15px;
+     text-align: center;
+  }
+}
