@@ -7,22 +7,21 @@ body {
 
 .nav-item{
   font-size: 14px;
-  width: 100px;
+  width: 150px;
 }
 
-.language_options{
-       display: inline-block;
-        margin-top: -5px;    
-        padding: 1px 15px 1px 15px;
-        border-radius: 10px;
-        color: #798296;
-        font-size: 14px;
+.language{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 5px;
+}
+.language:hover{
+  color: chocolate;
 }
 
 @media(max-width: 770px) {
   .language_options{    
     margin-top: 20px;
      padding: 5px 15px 5px 15px;
-     text-align: center;
   }
 }
